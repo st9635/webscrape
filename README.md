@@ -1,13 +1,13 @@
-# webscrape
-WebScrape
+# **WebScrape**
 ------------
 A lightweight Python web scraper that supports both normal websites and Cloudflare-protected sites (via cloudscraper).
 It extracts product names, links, and prices from e-commerce sites and saves them to CSV files.
 
 
-Installation:
+## Installation:
 -------------
 
+### Ord
 1. Clone the repository
 -----------------------------------------------------
 git clone git@github.com:st9635/webscrape.git
