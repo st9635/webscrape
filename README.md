@@ -19,14 +19,14 @@ cd webscrape
 python3 -m venv venv
 ```
 
-- Activate venv
-    - On Linux / macOS:
+   - Activate venv
+     - On Linux / macOS:
 
 ```bash
 source venv/bin/activate
 ```
 
-- On Windows (PowerShell):
+   - On Windows (PowerShell):
 
 ```cmd.exe
 .\venv\Scripts\activate
