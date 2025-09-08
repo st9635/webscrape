@@ -1,12 +1,9 @@
 # **WebScrape**
----
 
 A lightweight Python web scraper that supports both normal websites and Cloudflare-protected sites (via cloudscraper).\
 It extracts product names, links, and prices from e-commerce sites and saves them to CSV files.
 
-
 ## Installation:
----
 
 ### Ordered List
 1. Clone the repository
@@ -22,12 +19,15 @@ cd webscrape
 python3 -m venv venv
 ```
 
-    - Activate venv
-      - On Linux / macOS:
+- Activate venv
+    - On Linux / macOS:
+
 ```bash
 source venv/bin/activate
 ```
-      - On Windows (PowerShell):
+
+- On Windows (PowerShell):
+
 ```cmd.exe
 .\venv\Scripts\activate
 ```
