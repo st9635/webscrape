@@ -81,7 +81,7 @@ Output
 ---
 
 For each configured site, a CSV file will be saved automatically in the project folder.\
-Format: <domain>-<product>.csv\
+Format: \<domain>-\<product>.csv\
 Example: goldspot.com-Opus_88.csv
 
 Columns:
