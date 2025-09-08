@@ -17,17 +17,22 @@ cd webscrape
 2. Create and activate a Python virtual environment
 -----------------------------------------------------
 # Create venv (Python 3.10+ recommended)
+
 python3 -m venv venv
 
 # Activate venv
 # On Linux / macOS:
+
 source venv/bin/activate
+
 # On Windows (PowerShell):
+
 .\venv\Scripts\activate
 
 
 3. Install dependencies
 -----------------------------------------------------
+
 pip install -r requirements.txt
 
 
@@ -39,12 +44,14 @@ Usage:
 
 Run the scraper:
 -----------------------------------------------------
+
 python ws10.py
 
 
 Configure what to scrape
 Open the script and edit the SCRAPE_CONFIG dictionary at the bottom:
 -----------------------------------------------------
+
 SCRAPE_CONFIG = {
     # Example: normal site (basic requests)
     "https://goldspot.com/collections/opus-88": {
@@ -55,7 +62,6 @@ SCRAPE_CONFIG = {
         "next": "<a aria-label='Page Next'>",
         "cloudflare": False
     },
-
     # Example: Cloudflare-protected site (use cloudscraper)
     "https://www.jetpens.com/search?f=...&sa=popularity": {
         "product": "Opus 88",
@@ -68,11 +74,8 @@ SCRAPE_CONFIG = {
 }
 
 + product → label used for the output filename.
-
 + name / link / price → HTML tags or selectors for scraping.
-
 + next → selector for the pagination link.
-
 + cloudflare → set to True for Cloudflare-protected sites, False otherwise.
 
 
