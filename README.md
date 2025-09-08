@@ -80,15 +80,15 @@ SCRAPE_CONFIG = {
 Output
 ---
 
-For each configured site, a CSV file will be saved automatically in the project folder.
-Format: <domain>-<product>.csv
+For each configured site, a CSV file will be saved automatically in the project folder.\
+Format: <domain>-<product>.csv\
 Example: goldspot.com-Opus_88.csv
 
 Columns:
 ---
-name – product name
-price – product price
-link – product link
+name – product name\
+price – product price\
+link – product link\
 
 
 Notes
