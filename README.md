@@ -6,15 +6,11 @@ It extracts product names, links, and prices from e-commerce sites and saves the
 ## Installation:
 
 ### Ordered List
-1. Clone the repository
-```bash
-git clone git@github.com:st9635/webscrape.git
-cd webscrape
-```
 
-2. Create and activate a Python virtual environment
+1. Create and activate a Python virtual environment
 
-   - Create venv (Python 3.10+ recommended)
+   - Open a bash or cmd shell and create a Python virtual environment "venv" (Python 3.12+ recommended)
+
 ```bash
 python3 -m venv venv
 ```
@@ -26,10 +22,17 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-   - On Windows (PowerShell):
+   - On Windows (cmd.exe):
 
 ```cmd.exe
 .\venv\Scripts\activate
+```
+
+2. Clone the repository
+
+```bash
+git clone git@github.com:st9635/webscrape.git
+cd webscrape
 ```
 
 3. Install dependencies
