@@ -50,8 +50,7 @@ $ pip install -r requirements.txt
 $ python3 ws10.py
 ```
 
-2. Configure what to scrape\
-+
+2. Configure what to scrape
    - Open the script and edit the SCRAPE_CONFIG dictionary at the bottom:
 
 ```python
@@ -76,28 +75,27 @@ SCRAPE_CONFIG = {
     },
 }
 ```
-+ product → label used for the output filename.
-+ name / link / price → HTML tags or selectors for scraping.
-+ next → selector for the pagination link.
-+ cloudflare → set to True for Cloudflare-protected sites, False otherwise.
-+
+> + product → label used for the output filename.
+> + name / link / price → HTML tags or selectors for scraping.
+> + next → selector for the pagination link.
+> + cloudflare → set to True for Cloudflare-protected sites, False otherwise.
 
-Output
----
+
+3. Output
 
 For each configured site, a CSV file will be saved automatically in the project folder.\
-Format: \<domain>-\<product>.csv\
-Example: goldspot.com-Opus_88.csv
+> Format: \<domain>-\<product>.csv\
+> Example: goldspot.com-Opus_88.csv
 
-Columns:
----
-name – product name\
-price – product price\
-link – product link\
+4. Columns:
+
+> name – product name\
+> price – product price\
+> link – product link\
 
 
-Notes
----
+**Notes**
+
 + In auto-detect mode (use_cloudflare=None), the scraper will first try requests and automatically fall back to cloudscraper if a Cloudflare block is detected.
 
 + Pagination is followed automatically, and Referer headers are injected when scraping Cloudflare-protected sites to avoid 403 errors.
