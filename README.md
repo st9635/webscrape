@@ -5,8 +5,6 @@ It extracts product names, links, and prices from e-commerce sites and saves the
 
 ## Installation:
 
-### Ordered List
-
 1. Create a Python virtual environment
 
    - Open a bash or cmd shell and create a Python virtual environment "ws" (Python 3.12+ recommended)
@@ -43,7 +41,6 @@ $ pip install -r requirements.txt
 
 ## Usage:
 
-### Ordered List
 1. Run the scraper (python3 or python command):
 
 ```bash
