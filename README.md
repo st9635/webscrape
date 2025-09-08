@@ -1,7 +1,7 @@
 # **WebScrape**
 ---
 
-A lightweight Python web scraper that supports both normal websites and Cloudflare-protected sites (via cloudscraper).
+A lightweight Python web scraper that supports both normal websites and Cloudflare-protected sites (via cloudscraper).\
 It extracts product names, links, and prices from e-commerce sites and saves them to CSV files.
 
 
@@ -17,17 +17,17 @@ cd webscrape
 
 2. Create and activate a Python virtual environment
 
-Create venv (Python 3.10+ recommended)
+   - Create venv (Python 3.10+ recommended)
 ```bash
 python3 -m venv venv
 ```
 
-Activate venv
-On Linux / macOS:
+    - Activate venv
+      - On Linux / macOS:
 ```bash
 source venv/bin/activate
 ```
-On Windows (PowerShell):
+      - On Windows (PowerShell):
 ```cmd.exe
 .\venv\Scripts\activate
 ```
@@ -37,11 +37,7 @@ On Windows (PowerShell):
 pip install -r requirements.txt
 ```
 
----
----
-
 ## Usage:
----
 
 Run the scraper:
 
@@ -49,9 +45,10 @@ Run the scraper:
 python ws10.py
 ```
 
-Configure what to scrape
+Configure what to scrape\
+
 Open the script and edit the SCRAPE_CONFIG dictionary at the bottom:
----
+
 ```python
 SCRAPE_CONFIG = {
     # Example: normal site (basic requests)
